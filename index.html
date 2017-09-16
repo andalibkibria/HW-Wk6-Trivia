@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HW, Wk7, Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="quiz-container" class="jumbotron">
+            <div id="image-container">
+            </div>
+            <div id="quizQuestions">
+            </div>
+            <div id="questionAnswers">
+                <button type="button" class="btn btn-default answers-1 answers" value="1"></button>
+                <button type="button" class="btn btn-default answers-2 answers" value="2"></button>
+                <button type="button" class="btn btn-default answers-3 answers" value="3"></button>
+                <button type="button" class="btn btn-default answers-4 answers" value="4"></button>
+            </div>
+            
+            <br>
+
+            <div class="container">
+                <button type="button" class="btn btn-success" id="button">Click here to Begin</button>
+                <div class="timer" data-seconds-left=30 id="counter"></div>
+                <div id="correct"></div>
+                <div id="wrong"></div>
+            </div>
+            
+            <div id="answerImage">
+                <img src="assets/images/template.png">
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <p>&copy; Andy Kibria, 2017</p>
+</footer>
+
+</body>
+
+</html>
